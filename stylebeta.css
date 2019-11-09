@@ -1,12 +1,14 @@
 h1 {
-    font-size: 90px;
+    font-size: 60px;
+    color: lightblue;
 }
 h2 {
-    font-size: 60px;
+    font-size: 30px;
+    font: bold;
 }
 h3 {
-    font-size: 50px; 
+    font-size: 30px; 
 }
 p { 
-    font-size: 40px;
+    font-size: 20px;
 }
