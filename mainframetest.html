@@ -17,10 +17,16 @@
         bringing new experiences to others<br>
         But had actually been around since the early 50s<br>
     </p>
+	<p id="randomCredit"> Hello </p>
     <footer>
         Made by MJ, Coby, Josef, Sophia and Christiana <br>
         No sleep gang!<br>
         <a href="https://github.com/yohamaruki/logicalthinkers">View source here on MJ's Github</a>
     </footer>
 
+	<script>
+	var message = ["TEST", "SET", "MORE SCIENCE"];
+	var randoMess = Math.floor(Math.random() * 3);
+	document.getElementById("randomCredit").innerHTML = message[randoMess];
+	</script>
 </html>
