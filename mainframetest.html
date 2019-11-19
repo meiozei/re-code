@@ -12,6 +12,7 @@
 </head>
 
 <body>
+        
     <div>
         <h1> ://BEPIS </h1>
     </div>
@@ -25,10 +26,28 @@
         </ul>
         </p>
     </div>
+    <p id="demo"></p>
+    
+    <p id="TSET"></p>
     <footer>
         Made by MJ, Coby, Josef, Sophia and Christiana <br>
         No sleep gang!<br>
         <a href="https://github.com/yohamaruki/re-code">View source here on MJ's Github</a>
     </footer>
 
+    <script>
+        var i = 0;
+        var txt = 'Lorem ipsum typing effect!'; /* The text */
+        typeWriter();
+
+        function typeWriter() {
+            if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, 50);
+            }
+        }
+    </script> 
+</body>
+ 
 </html>
