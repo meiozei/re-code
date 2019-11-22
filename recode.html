@@ -8,97 +8,10 @@
     <meta name="description" content="Why Programming?">
     <meta name="authors" content="Bepis">
     <meta name="viewport" content="width=device-width, initial-scale 1.0">
-    <link ref="stylesheet" href="design.css" type="text/css">
-    <link ref="stylesheet" href="header.css" type="text/css">
+    <link rel="stylesheet" href="design.css" type="text/css">
+    <link rel="stylesheet" href="header.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
 </head>
-<style>
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        margin: 0;
-        background: #222;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-    }
-
-    .container {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .header {
-        background: #42cbf5;
-    }
-
-    header::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    .logo {
-        float: left;
-    }
-
-    nav {
-        float: middle;
-    }
-
-    nav ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    nav li {
-        display: inline-block;
-        margin-left: 70px;
-        padding-top: 25px;
-        position: relative;
-    }
-
-    nav a {
-        color: #444;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 14px;
-    }
-
-    nav a:hover {
-        color: #000;
-    }
-
-    nav a::before {
-        content: "";
-        display: block;
-        height: 5px;
-        width: 100%;
-        background-color: #444;
-        position: absolute;
-        top: 0;
-        width: 0%;
-        transition: all ease-in-out 250ms;
-    }
-
-    nav a:hover::before {
-        width: 100%;
-    }
-
-    @media screen and (max-width: 500px) {
-        .header a {
-            float: none;
-            display: block;
-            text-align: left;
-        }
-
-        .header-right {
-            float: none;
-        }
-    }
-</style>
 
 <body>
     <header>
@@ -115,12 +28,20 @@
             </nav>
         </div>
     </header>
+    <div class="caption">
+        <span class="text" id="programming"></span>
+        <span class="type=cursor"></span>
+    </div>
+    <script src="typing.js"></script>
+            <p>Do you wanna learn more about programming?</p>
+            <p>Join us!</p>
     <div>
         <p id="randomCredit"></p>
         <script src="rng.js">
         </script>
-        <p id="programming"></p>
-        <script src="typing.js"></script>
+        <p id=></p> 
+        <script >
+        </script>
 
         <noscript>Hey sorry about that, but your browser does not support JavaScript. </noscript>
     </div>
