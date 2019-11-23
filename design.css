@@ -25,11 +25,7 @@ h3 {
 }
 
 h4 {
-    font-size: 70px;
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: blue;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -41,7 +37,6 @@ p {
 pre {
     font-size: 20px;
     color: white;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serifF;
 }
 
