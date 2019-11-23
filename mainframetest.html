@@ -8,46 +8,45 @@
     <meta name="description" content="Why Programming?">
     <meta name="authors" content="Bepis">
     <meta name="viewport" content="width=device-width, initial-scale 1.0">
-    <link rel="stylesheet" href="stylebeta.css" type="text/css">
+    <link rel="stylesheet" href="design.css" type="text/css">
+    <link rel="stylesheet" href="header.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
 </head>
 
 <body>
-        
-    <div>
-        <h1> ://BEPIS </h1>
+    <header>
+        <div class="header">
+            <h1 class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">CIIT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="caption">
+        <span class="text" id="programming"></span>
+        <span class="type=cursor"></span>
     </div>
+    <script src="typing.js"></script>
+    <p>Do you wanna learn more about programming?</p>
+    <p>Join us!</p>
     <div>
-        <h1>Programming</h1>
-        <h2>Why programming?</h2>
-        <ul>
-            <li> Create Programs yourself!</li>
-            <li> Tons of cash to be made by sitting in a cubicle! </li>
-            <p>...and more!</p>
-        </ul>
-        </p>
+        <p id="randomCredit"></p>
+        <script src="rng.js">
+        </script>
+
+        <noscript>Hey sorry about that, but your browser does not support JavaScript. </noscript>
     </div>
-    <p id="demo"></p>
-    
-    <p id="TSET"></p>
     <footer>
         Made by MJ, Coby, Josef, Sophia and Christiana <br>
         No sleep gang!<br>
         <a href="https://github.com/yohamaruki/re-code">View source here on MJ's Github</a>
     </footer>
+    </div>
 
-    <script>
-        var i = 0;
-        var txt = 'PROGRAM THE FUTURE. TODAY.'; /* The text */
-        typeWriter();
-
-        function typeWriter() {
-            if (i < txt.length) {
-            document.getElementById("demo").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, 50);
-            }
-        }
-    </script> 
-</body>
- 
 </html>
