@@ -26,15 +26,12 @@ footer {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-.typeTxt {
+
+.TxtType {
     font-size: 70px;
     text-align: left;
     font-family: 'Big Shoulders Text', cursive;
     color: lightblue;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    margin-right: 100px;
-    margin-left: 100px;
 }
 
 .randomCredit {
@@ -108,7 +105,7 @@ footer {
   }
   
   .newsletter {
-    background-image: linear-gradient(to right skyblue,lightblue,white);
+    background-image: linear-gradient(to right, darkblue, lightblue);
     width: 1000px;
     padding: 60px;
     text-align: center;
