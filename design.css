@@ -1,14 +1,16 @@
 html {
     scroll-behavior: smooth;
 }
-
+h1 {
+    font-family: 'Poppins', sans-serif
+}
 h2 {
     font-family: 'Poppins', sans-serif;
 }
 
 p {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 
@@ -97,3 +99,66 @@ footer {
     font-style: italic;
     color: white;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .newsletter {
+    background-image: linear-gradient(to right skyblue,lightblue,white);
+    width: 1000px;
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0 0 20px #00000060;
+    margin: auto;
+  }
+  
+  .newsletter h1 {
+    text-transform: uppercase; 
+    color: #ffff;
+    font-size: 40px;
+    line-height: 40px
+  }
+  
+  .txtb {
+    width: 100%;
+    height: 70px;
+    background: #f1f1f199;
+    border-radius: 40px;
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .txtb input {
+    width: 100%;
+    height: 70px;
+    border-radius: 40px;
+    border: 0;
+    background: none;
+    padding: 0 30px;
+    outline: none;
+    font-size: 15px;
+    padding-right: 80px;
+  }
+  
+  .txtb button { 
+    background: white;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #444;
+    transition: 0.3s linear;
+  }
+  
+  .txtb button:hover {
+    opacity: .5;
+  }
